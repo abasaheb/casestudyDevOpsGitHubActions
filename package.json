@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": echo "test('adds 1 + 2 to equal 3', () => { expect(1 + 2).toBe(3); });" > app.test.js
+    "test": echo "test('adds 1 + 2 to equal 3', () => {\n  expect(1 + 2).toBe(3);\n});\n" > app.test.js
   },
   "keywords": [],
   "author": "",
